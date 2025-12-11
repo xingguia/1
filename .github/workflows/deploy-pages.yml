@@ -27,4 +27,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages   # ⭐⭐ 关键：指定要发布到 gh-pages
-          force_orphan: true         # 让分支变干净，避免历史冲突
+          force_orphan: true         # 让分支变干净，避免历史冲突.
